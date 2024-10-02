@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Ateendee Management System</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="form-body">
+
+    <div class="container">
+
+      <div class="h1">
+        <h1>Event Attendee Management System</h1>
+      </div>
+
+      <div class="add-segment">
+        <h2>Add Attendee</h2>
+        <input type="text" placeholder="Please enter attendee's fullname" id="add-input">
+        <span id="error1">*This field is necessary*</span>
+        <span id="error11">*Your input is not a name*</span>
+        <button id="add-btn">Add Attendee</button>
+      </div>
+
+      <div class="search-segment">
+        <h2>Search for an Attendee</h2>
+        <input type="text" placeholder="Please enter your fullname" id="search-input">
+        <span id="error2">*This field is necessary*</span>
+        <span id="error21">*Your input is not in the database*</span>
+        <span id="search-output"></span>
+        <button id="search-btn">Search Attendee</button>
+      </div>
+
+      <div class="listing-segment">
+        <h2>List All Attendee</h2>
+        <button id="list-btn">List Attendee</button>
+        <div id="list-div"></div>
+      </div>
+
+      <div class="remove-segment"></div>
+        <h2>Remove an Attendee</h2>
+        <input type="text" placeholder="Please enter attendee's fullname" id="remove-input">
+        <span id="error3">*This field is necessary*</span>
+        <span id="error31">*Your input is not in the database*</span>
+        <button id="remove-btn">Remove Attendee</button>
+        <div id="remove-div"></div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>
