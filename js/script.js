@@ -92,7 +92,7 @@ searchbtn.addEventListener('click', () => {
 listbtn.addEventListener('click', () => {
   let listspace = `<ol>`;
   attendeeNames.forEach((attendee, index) => {
-    listspace += `<li>${index + 1}. ${attendee.name}</li>`;
+    listspace += `<li>${attendee.name}</li>`;
   });
   listspace += `</ol>`;
   document.getElementById('list-div').innerHTML = listspace;

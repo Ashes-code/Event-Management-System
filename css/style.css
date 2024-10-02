@@ -149,6 +149,10 @@ body{
   margin: 25px 0;
 }
 
+#list-div{
+  margin: 7px 0 0 30px;
+
+}
 
 #list-btn{
   background-color: #800080;
